@@ -23,7 +23,7 @@ func loginfnc() {
 	if curUser.userid == "Test" && curUser.pwd == "test" {
 	opt:
 		fmt.Println("Please select the option to proceed:")
-		fmt.Println("\nl -> WithDraw\n2 -> Deposit\n5 -> Balance\n4 -> Quit")
+		fmt.Println("\nl -> WithDraw\n2 -> Deposit\n3 -> Balance\n4 -> Quit")
 		fmt.Scan(&operation)
 
 		switch operation {
